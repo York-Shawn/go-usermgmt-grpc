@@ -44,5 +44,5 @@ func main() {
 		log.Fatalf("Could not retrieve users: %v", err)
 	}
 	log.Print("\nUSER LIST: \n")
-	fmt.Print("r.GetUsers(): %v\n", r.GetUsers())
+	fmt.Printf("r.GetUsers(): %v\n", r.GetUsers())
 }
